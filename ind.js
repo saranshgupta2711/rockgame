@@ -6,7 +6,7 @@ document.querySelector("footer button").addEventListener("click",function(){;
     elem2.setAttribute("class","cross");
 var elem=document.createElement("div");
 var ele=document.createElement("img");
-ele.setAttribute("src","./images/image-rules.svg");
+ele.setAttribute("src","./image-rules.svg");
 elem.setAttribute("class","rulebox");
 elem2.innerHTML="X";
 document.querySelector("body").appendChild(elem);
@@ -119,7 +119,7 @@ function frame(){
     flag=1;
     clearInterval(id);
    }else{
-    var audio1=new Audio("./audio/homeappear.mp3");
+    var audio1=new Audio("./homeappear.mp3");
     audio1.play();
     ele.classList.remove("general");
     ele.classList.add("circle13");
@@ -164,7 +164,7 @@ sum=temp.toString();
 
 id3=setInterval(frame3,2725);
 function frame3(){
-  var audio1=new Audio("./audio/draw.mp3");
+  var audio1=new Audio("./draw.mp3");
   audio1.play();
   score.innerHTML=sum;
   clearInterval(id3);
@@ -321,7 +321,7 @@ function renderLink(node) {
 
 
 document.querySelector("footer .res").addEventListener("click",function(){
-  var audio=new Audio("./audio/gain.mp3");
+  var audio=new Audio("./gain.mp3");
   audio.play();
   sum="0";
   localStorage.clear();
