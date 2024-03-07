@@ -103,7 +103,7 @@ function frame(){
     clearInterval(id);
   }else{
    if(i===0){
-    var audio1=new Audio("./audio/homeappear.mp3");
+    var audio1=new Audio("./homeappear.mp3");
     audio1.play();
      ele.classList.remove("general");
      ele.classList.add("circle11");
@@ -111,7 +111,7 @@ function frame(){
      flag=1;
      clearInterval(id);
    }else if(i===1){
-    var audio1=new Audio("./audio/homeappear.mp3");
+    var audio1=new Audio("./homeappear.mp3");
     audio1.play();
     ele.classList.remove("general");
     ele.classList.add("circle12");
